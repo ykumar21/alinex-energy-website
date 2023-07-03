@@ -3039,6 +3039,9 @@ figcaption {
   grid-row-gap: 30px;
   grid-template: ". ."
   / 1fr 2fr;
+  position: relative;
+  left: 60%;
+  transform: translateX(-50%);
   align-items: start;
   margin-top: 80px;
   margin-bottom: 80px;
